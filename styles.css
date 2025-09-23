@@ -15,7 +15,7 @@
 }
 
 .orange-color{
-    color: rgba(254, 163, 1, 1);
+    color: rgb(254, 163, 1);
 }
 .skyblue-color{
     color: rgba(1, 172, 253, 1);
@@ -27,6 +27,22 @@
 .violate-color{
     color: #5D58EF;
 }
+.title{
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* nav section */
 .navbar{
@@ -61,7 +77,7 @@
 
 
 .nav-button button{
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1.25rem;
     padding: 10px 60px;
     border-radius: 12px;
@@ -109,6 +125,77 @@
 }
 
 
+/* curriculum section */
+.curriculum{
+    background-image: url("assets/bg.png");
+    padding: 60px auto;
+}
+.card-container{
+    margin: 80px 140px;
+    gap: 29px;
+}
+.card{
+    box-shadow: 0 0 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    padding: 36px 28px;
+    border-radius: 1.2rem;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.card-subtitle{
+    font-weight: 500;
+    font-size: 1rem;
+    color: #808080;
+}
+.read{
+    font-weight: 700;
+    font-size: 1rem;
+}
+#beguni{
+    color: #8700FF;
+}
+.card-1{
+    border: 0.64px solid rgba(222, 245, 255, 1);
+    background: linear-gradient(180.00deg, rgba(222, 245, 255, 1),rgba(255, 255, 255, 0) 40%);
+
+}
+.card-2{
+    border: 0.64px solid rgba(255, 244, 220, 1);
+    background: linear-gradient(180.00deg, rgba(255, 244, 220, 1),rgba(255, 255, 255, 0) 40%);
+    
+}
+.card-3{
+    border: 0.64px solid rgba(242, 232, 255, 1);
+    background: linear-gradient(180.00deg, rgba(238, 225, 255, 1),rgba(255, 255, 255, 0) 40%);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+  height: 60px;
+  margin: auto;
+}
+
+.circle {
+  width: 50px; 
+  height: 50px;
+  font-size: 1.5rem;
+  color: white;
+  background-color: rgb(254, 163, 1); 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+
+  
+
+
+
 
 
 
@@ -141,7 +228,7 @@
 
     .banner{
         flex-direction: column-reverse;
-        margin: auto 16px;
+        margin: auto 10px;
         gap: 20px;
         text-align: center;
     }
@@ -159,6 +246,15 @@
     }
     .banner-img img{
         width: 100%;
+    }
+    /* curriculum section */
+    .card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: auto 1rem;
+    }
+    .logo-container{
+        display: none;
     }
 
 
