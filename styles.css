@@ -343,12 +343,18 @@
     }
 
     /* story section */
+    .Our-stories{
+        margin: 0;
+    }
+    .small-container{
+    gap: 12px;
+    }
     .story-card-1{
         display: none;
     }
     .story-card{
-        width: 180px;
-        height: 180px;
+        width: 160px;
+        height: 160px;
     }
     .story-title{
         padding: 18px  20px;
