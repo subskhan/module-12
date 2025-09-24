@@ -263,11 +263,16 @@
     background-color: #95B226;
     color: white;
     border-radius: 47.93px;
-    padding: 5px 9px;
+    padding: 9px 9px;
     position: absolute;
+    width: 50%;
     top: 60%;
-    right:  50%;
+    left: 5%;
     font-size: 1rem;
+}
+#jo{
+    left: 5%;
+    top: 57%;
 }
 .story-content{
     margin: auto 30px;
@@ -431,6 +436,8 @@ marquee{
     }
     .date-badge{
     font-size: 5px;
+    width: 33%;
+    top: 55%;
     }
     /* footer */
     .footer{
