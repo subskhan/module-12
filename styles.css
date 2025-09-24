@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 
@@ -209,30 +210,28 @@
     margin: auto 140px;
 
 }
-
-.small-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-}
-
-
 .story-card-1{
+
+    background-color: white;
     display: flex;
     flex-direction: column;
-    background-color: white;
-    border-radius: 0 0 16px 16px;
-    
-
+    border-radius: 16px;
+    position: relative;
 }
 .story-card-1 img{
     border-radius:  16px 16px 0 0;
     
 }
+.text1{
+    margin: 30px 30px auto ;
+
+}
+
 
 .story-title-1{
     font-weight: 700;
     font-size: 1.6rem;
+    
 
 }
 
@@ -240,41 +239,44 @@
     font-size: 1rem;
     
 }
+.small-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
 
 .story-card{
-    /* max-width: 290.69px;
-    max-height: 301.61px; */
+    background-color: white;
     display: flex;
     flex-direction: column;
-    background-color: white;
-     border-radius: 0 0 16px 16px;
+    border-radius: 16px;
+    position: relative;
 }
+.story-card img{
+    border-radius: 16px 16px 0 0;
+}
+.date-badge{
+    background-color: #95B226;
+    color: white;
+    border-radius: 47.93px;
+    padding: 5px 14px;
+    position: absolute;
+    top: 60%;
+    right:  50%;
+    font-size: 1rem;
+}
+.story-content{
+    margin: auto 30px;
+
+}
+
 
 .story-title{
     font-weight: 700;
     font-size: 1rem;
-    margin: 0;
-    padding: 32px 37px 29px 37px;
-   
 }
-.story-card img{
-    margin: 0;
-    border-radius:  16px 16px 0 0;
-}
-.text1{
-    padding: 30px;
-    border-radius: 0 0 16px 16px;
-}
-/* .story-img{
-    width: auto;
-} */
-/* #card1-button{
-    background-color: #05D4DF;
-    color: #FFFFFF;
-    position: absolute;
-    top: 700px;
-} */
-
 
 
 
@@ -343,24 +345,24 @@
     }
 
     /* story section */
-    .Our-stories{
-        margin: 0;
-    }
-    .small-container{
-    gap: 12px;
-    }
     .story-card-1{
         display: none;
     }
     .story-card{
-        width: 160px;
-        height: 160px;
+        width: 190px;
+        height: 190px;
     }
     .story-title{
         padding: 18px  20px;
         margin-top: 0;
         font-size: 9px;
     }
+    .story-content{
+        margin: 0;
+    }
+    .date-badge{
+    font-size: 9px;
+}
   
 
 
